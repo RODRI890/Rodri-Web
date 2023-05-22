@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="icofont/icofont.min.css">
+	<link rel="stylesheet" href="icofont/icofont.css">
+    <title>Portfolio</title>
+</head>
+<body onload="slider()">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span class="dead">RODRI</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="icofont-close" id="ico" onclick="closemenu()"></i>
+                </ul>
+                <i class="icofont-navigation-menu" id="ico" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>JOSE'</span><br> <span>RODRI</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pimages/images/female-web-designer-taking-notes-office.jpg" alt="" id="slideImg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Jose' Rodri, a passionate UI/UX designer with a focus on creating exceptional digital experiencesWith a background in graphic design and a love for human-centered design principles, I thrive on crafting intuitive interfaces that seamlessly blend aesthetics and functionality.</p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                          </div>
+                          <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>WEB DEV</span><br> Html & Css</li>
+                                <li><span>UI/UX</span><br>Prototyping & Wireframing. </li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - 2022</span><br>Designer at Sephina-B Stitches</li>
+                                <li><span>2019 - 2021</span><br> Freelancer</li>
+                                <li><span>2016 - 2107</span><br>Internship at Unicus </li>
+                            </ul>
+                          </div>
+                          <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021</span><br>UI/UX Design Training at UDEMY.</li>
+                                <li><span>2018</span><br> Computer Science at FUPRE.</li>
+                                <li><span>2017</span><br>WEB DEV Training at CODE ACADEMY..</li>
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -----------services------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="icofont-code"></i>
+                <h2>Web Design</h2>
+                <p>using Html Css to Create simple web design and Interfaces.</p>
+                    
+            </div>
+            <div>
+                <i class="icofont-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p> creating Web interfaces, Prototyping and Wireframing .</p>
+                   
+            </div>
+            <div>
+                <i class="icofont-iphone"></i>
+                <h2>App Design</h2>
+                <p> creating App interfaces, Prototyping and Wireframing.</p>
+                    
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- -----------portfolio------- -->
+<div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">Recent Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="pimages/images/flight.webp" alt="">
+                <div class="layer">
+                    <h3>Flight Booking Concept</h3>
+                    <p> Told to design A Flight Booking Concept.
+                    </p>
+                    <a href="https://www.figma.com/proto/NpydufyGExmeYLzpoQqhZS/Flight-Booking-concept?page-id=0%3A1&type=design&node-id=1-268&viewport=498%2C546%2C0.38&scaling=scale-down"><i class="icofont-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="pimages/images/discord.webp" alt="">
+                <div class="layer">
+                    <h3>Discord Concept</h3>
+                    <p>Instructed to design a discord interface.
+                    </p>
+                    <a href="https://www.figma.com/proto/59pVMaVkLi1l1COcohOiwC/Discord-Concept?page-id=0%3A1&type=design&node-id=528-5681&viewport=0%2C0%2C1&scaling=scale-down"><i class="icofont-link"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="pimages/images/uber.webp" alt="">
+                <div class="layer">
+                    <h3> Uber/Cab Booing Concept.</h3>
+                    <p>Teamed up with fellow Designers to create a uber/cab booking concept.
+                    </p>
+                    <a href="https://www.figma.com/proto/eNuUaAdee0CrV0GjzzWTT6/Uber-concept?page-id=0%3A1&type=design&node-id=0-118&viewport=425%2C260%2C0.48&scaling=scale-down"><i class="icofont-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.figma.com/proto/vOJkFP5gvPy65BWQ6mxDKC/Coffee-App-Concept?page-id=0%3A1&type=design&node-id=1-3&viewport=-1643%2C570%2C0.6&scaling=scale-down&starting-point-node-id=1%3A3" class="btn">Coffee Concept</a>
+    </div>
+</div>
+
+<!-- -------------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="icofont-paper-plane"></i>rodrisantos791@gmail.com</p>
+                <p> <i class="icofont-phone"></i>08024071977</p>
+                <div class="social-icons">
+                    <a href="mailto:rodrisantos791@gmail.com"><i class="icofont-envelope"></i></a>
+                    <a href="https://twitter.com/JOSRODRI14?t=oxmCqbCDtZ6yA_Gg6HY3sw&s=09"><i class="icofont-twitter"></i></a>
+                    <a href="https://instagram.com/jose_rodri_gnr?igshid=ZGUzMzM3NWJiOQ=="><i class="icofont-instagram"></i></a>
+                    <a href="https://wa.me/2348024071977"><i class="icofont-whatsapp"></i></a>
+                </div>
+                <a href="pimages/images/JOSEE.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>copyright @ Jose'. made with<i class="icofont-heart"></i> by Josee Tech</p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemen = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemen.style.right = "0";
+    }
+    function closemenu(){
+        sidemen.style.right = "-200px";
+    }
+
+   </script>
+
+   <script>
+    var slideImg = document.getElementById("slideImg");
+
+    var images = new Array(
+        "pimages/images/flow1.jpg",
+        "pimages/images/flow2.jpg",
+        "pimages/images/flow3.jpg",
+        "pimages/images/flow4.jpg"
+    );
+    var len = images.length;
+    var i=0;
+
+    function slider(){
+        if (i > len-1){
+            i=0;
+        }
+        slideImg.src = images[i];
+        i++;
+        setTimeout('slider()',3000);
+    }
+
+   </script>
+    
+</body>
+</html>
